@@ -23,6 +23,8 @@ Beim PayJoe-Zugang ggf. die Ausgabe-Einstellungen anpassen. Ich habe es wie folg
 
 ![Ausgabe-Einstellungen](screenshots/payjoe_ausgabe_einstellungen.png)
 
+(auf der rechten Seitenleiste befinden sich die Textbausteine, die man hinzufügen kann)
+
 ## Wie man das Tool verwendet
 
 Bei Wise den gewünschten Bericht als CSV exportieren.
