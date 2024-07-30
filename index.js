@@ -71,14 +71,12 @@ async function sendToPayJoe(data) {
 }
 
 const records = []
-const parser = fs
-  .createReadStream('statement_26522757_EUR_2024-07-01_2024-07-29.csv')
-  .pipe(
-    parse({
-      columns: true,
-      cast: true,
-    })
-  )
+const parser = fs.createReadStream('input.csv').pipe(
+  parse({
+    columns: true,
+    cast: true,
+  })
+)
 parser.on('readable', function () {
   let record
   while ((record = parser.read()) !== null) {
